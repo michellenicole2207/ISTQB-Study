@@ -16,8 +16,8 @@
 | Model | Description | Testing Approach |
 |---|---|---|
 | **Sequential** (Waterfall, V-model) | Phases are completed one after another | Testing begins after development; V-model maps each dev stage to a test level |
-| **Iterative** (Spiral, RUP) | Requirements and design evolve through repeated cycles | Testing occurs within each iteration |
-| **Incremental** (Kanban, Scrum) | System is built and delivered in small pieces | Each increment is tested before the next begins |
+| **Iterative** (Spiral, Prototyping) | Requirements and design evolve through repeated cycles | Testing occurs within each iteration |
+| **Incremental** (Unified Process) | System is built and delivered in small pieces | Each increment is tested before the next begins |
 
 > In practice, many projects combine models (e.g., iterative + incremental = Agile).
 
@@ -25,7 +25,7 @@
 - Every development activity has a corresponding test activity
 - Test analysis and design begin as early as possible
 - Testers are involved in reviewing documents as soon as drafts are available
-- Test levels are defined with clear entry and exit criteria
+- Different test levels have specific and different test objectives
 
 ---
 
@@ -74,10 +74,9 @@ Test types describe *what* is being tested, independent of the level.
 Triggered when an operational system is modified, migrated, or retired.
 
 ### Triggers
-- Corrective changes (bug fixes)
-- Adaptive changes (new environment, OS upgrade, migration)
-- Perfective changes (new features, performance improvements)
-- Retirement of a system
+- **Modifications**: planned enhancements, corrective changes, or hot fixes
+- **Upgrades or migrations**: moving to a new environment, platform, or OS
+- **Retirement**: when a system reaches the end of its life
 
 ### Impact Analysis
 - Determines which parts of the system are affected by a change

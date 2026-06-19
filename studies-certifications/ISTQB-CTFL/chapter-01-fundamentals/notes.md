@@ -12,7 +12,7 @@
 2. Exhaustive testing is impossible
 3. Early testing saves time and money (shift-left)
 4. Defects cluster together (Pareto principle)
-5. Tests wear out — vary and update them (pesticide paradox)
+5. Tests wear out — vary and update them
 6. Testing is context dependent
 7. Absence of defects is a fallacy
 
