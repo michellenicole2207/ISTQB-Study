@@ -25,6 +25,14 @@ A single alphabetical reference covering all key terms from Chapters 1–6, each
 
 ---
 
+## Common Mistakes
+
+Typical exam traps, easily confused concept pairs, and tips to avoid falling for them.
+
+→ [COMMON-MISTAKES.md](./COMMON-MISTAKES.md)
+
+---
+
 ## Notes Convention
 
 Each chapter `notes.md` includes:
